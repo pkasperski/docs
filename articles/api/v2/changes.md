@@ -10,7 +10,7 @@ This document aims to describe the major differences between Auth0's API v1 and 
 * All endpoints will work with ids, no more strings (such as connection name).
 * New `user_id` (available as `v2_id` with "usr\_" prefix) and clientID ("cli\_" prefix) formats to easily recognize the type of entity based on its id.
 * Improved input validation and error messages.
-* Only one connection with the same is exposed per tenant, instead of one per client. To enable/disable a connection for a client, the `enabled_clients` property is used.
+* Only one connection with the same id exposed per tenant, instead of one per client. To enable/disable a connection for a client, the `enabled_clients` property is used.
 
 ### User endpoints
 | v1 Endpoint      | Change        | In v2  |
